@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Details de l'auteur</title>
+</head>
+<body>
+    <h1>Details de l'auteur</h1>
+  
+    <td>{{ author.username|upper }}</td>
+              <td>ID de l'auteur : {{ author_id }}</td>
+            <td>{{ author.email }}</td>
+            <td>{{ author.nb_books }}</td>
+              <td><img src="{{ asset(author.picture) }}" alt="{{ author.username }}" width="100"></td>
+</body>
+</html>
